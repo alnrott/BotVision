@@ -1,0 +1,20 @@
+Para esta aplicacion se utilizó Flask con una vista web que usa XHR
+XHR (XMLHttpRequest) es una API de JavaScript que permite realizar solicitudes HTTP en 
+segundo plano sin necesidad de recargar la página. Esto significa que se pueden enviar y
+ recibir datos desde el servidor sin interrumpir la experiencia de usuario.
+
+A diferencia de una llamada HTTP normal, que se ejecuta cada vez que se recarga la página, 
+las solicitudes XHR se pueden programar para ejecutarse en cualquier momento y repetirse 
+automáticamente. Además, XHR permite recibir respuestas parciales y actualizar solo una parte 
+de la página en lugar de recargar toda la página.
+
+Esta funcionalidad es útil en aplicaciones web en las que se desea actualizar el contenido de 
+la página en tiempo real sin interrumpir la experiencia de usuario. Por ejemplo, en una 
+aplicación de chat, se pueden enviar mensajes en tiempo real y mostrar los nuevos mensajes sin 
+tener que recargar la página completa.
+
+En resumen, XHR permite interactuar con el servidor de forma más dinámica y eficiente que con 
+una llamada HTTP normal, lo que resulta en una experiencia de usuario más suave y fluida.
+
+
+tambien se usa jinja2 para usar dinamicamente su funcionalidad
